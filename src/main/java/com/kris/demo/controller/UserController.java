@@ -46,7 +46,7 @@ public class UserController {
 
         List<String> list1 = new ArrayList<>();
         list1.add("1111");
-        list1.add("2222");
+        list1.add("22222222");
         redisUtil.lSet("test1", list1);
 
 
