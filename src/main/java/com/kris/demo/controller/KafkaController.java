@@ -28,7 +28,7 @@ public class KafkaController {
         User user = new User();
         user.setId(1000L);
         user.setUserName("testName");
-        user.setNickName("昵称1111");
+        user.setNickName("昵称11112222");
         kafkaProducer.sendUserMessage(user);
     }
 
